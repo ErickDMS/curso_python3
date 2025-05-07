@@ -1,5 +1,5 @@
 condicao = False
-passou_no_if = None
+passou_no_if = None #flag e plantar uma bandeira para ver se a variavel tem ou nao valor
 
 if condicao == True:
     passou_no_if = True
