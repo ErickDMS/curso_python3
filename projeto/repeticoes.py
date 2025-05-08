@@ -12,4 +12,15 @@ while entrada_int <= 80:
     if entrada_int >= 50 and entrada_int <=60:
         print('??')
         continue
-    
+
+qtd_coluna = 5
+qtd_linha = 5
+
+linha = 1
+
+while linha <= qtd_linha:
+    coluna = 1
+    while coluna <= qtd_coluna:
+        print(f'{linha=} {coluna=}')
+        coluna += 1
+    linha += 1
