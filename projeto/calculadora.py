@@ -41,8 +41,11 @@ while True:
     else:
         print('Algo de errado nao esta certo.')
 
+    print('________________________')
+
     sair = input('Voce quer sair? [s]').lower().startswith('s')
     if sair:
         print('Good bye')
         break
-    
+    else:
+        print('________________________')
