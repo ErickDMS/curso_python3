@@ -5,6 +5,8 @@ while True:
     numer02 = input('Digite outro numero: ')
     operador = input('Escolha o operador + - * /:')
     numeros_validos = None
+    num1_float = 0
+    num2_float = 0
 
     try:
         num1_float = float(numero1)
