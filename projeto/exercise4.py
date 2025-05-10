@@ -11,7 +11,11 @@ while i < len(frase):
 
     if qtd_apareceu_mais_vezes < qtd_apareceu_mais_vezes_atual:
         qtd_apareceu_mais_vezes = qtd_apareceu_mais_vezes_atual
-
-    print(letra_atual, qtd_apareceu_mais_vezes_atual) 
+        letra_apareceu_mais_vezes = letra_atual
+     
     
     i+= 1
+
+print ('A letra que apareceu mais vezes foi ' \
+    f'"{letra_apareceu_mais_vezes}" que apareceu '
+    f'{qtd_apareceu_mais_vezes}x')
