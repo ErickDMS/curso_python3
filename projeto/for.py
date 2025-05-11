@@ -1,2 +1,3 @@
-i = 0
-for
+texto = 'labaxuria de cantas'
+for letra in texto:
+    print(letra)
