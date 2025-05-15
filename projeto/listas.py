@@ -1,3 +1,5 @@
-lista = [1, 'Erick Santos', 1.4, True]
-
-print(lista)
+lista = ['', '', '', '']
+while True:
+    variavel1 = input('Digite algo: ')
+    lista[0] = variavel1
+    print(lista[0])
