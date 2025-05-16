@@ -19,3 +19,5 @@ if lista[1] < variavel3:
     print(lista)
 lista.extend(lista_teste) ## uma forma de concatenar
 print(lista)
+lista_teste2 = lista.copy()
+print('lista_teste2', lista_teste2)
