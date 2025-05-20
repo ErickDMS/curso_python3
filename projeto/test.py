@@ -1,1 +1,0 @@
-print('voltei depois do bug')
