@@ -13,4 +13,4 @@ print(nome5)
 
 ##desempacotamento atravez de funcao
 ## pode ser ultilizado o '*' para interar todos os itens
-print(*nome5)
+print(*nome5, sep= '\n')
