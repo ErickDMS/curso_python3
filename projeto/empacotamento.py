@@ -11,4 +11,6 @@ nome5 = ['erick', 'david', 'santos']
 nome5 = tuple(nome5)
 print(nome5)
 
-
+##desempacotamento atravez de funcao
+## pode ser ultilizado o '*' para interar todos os itens
+print(*nome5)
