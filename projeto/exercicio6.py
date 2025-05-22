@@ -1,4 +1,7 @@
-cpf = input ('Digite seu CPF: ')
+cpf = input ('Digite seu CPF: ')\
+    .replace('.', '')\
+    .replace('.', '')\
+    .replace('-', '')## para retirar os itens nao desejados (precisa definir quais)
 nove_digitos = cpf[:9]
 contador_regressivo = 10
 resultado = 0
@@ -17,7 +20,7 @@ digito1 = digito1 if digito1 < 9 else 0
 
 contador_regressivo2 = 11
 resultado2 = 0
-dez_digitos = cpf[:10]
+dez_digitos = cpf[:9] + str(digito1)
 
 for digito2 in dez_digitos:
     resultado2 += int(digito2) * contador_regressivo2
