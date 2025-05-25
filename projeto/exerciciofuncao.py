@@ -18,13 +18,11 @@ num2 = input('Digite um numero: ')
 
 def par_impar(x):
     y = int(x)
-    result = 0
     conta = y % 2
     if conta == 0:
-        result = 'Numero par'
-    else:
-        result = 'Numero impar'
-    return result
+        return f'{conta} Numero par'
+    
+    return f'{conta} Numero impar'
     
 
 result = par_impar(num2)
