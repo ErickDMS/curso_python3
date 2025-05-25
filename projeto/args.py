@@ -1,7 +1,7 @@
 """ *args e uma forma de chamar os argumentos sem precisar chamar cada um por seu nome
 """
 
-lista = [1 ,2 ,3 ,4 ,5 ,6 ,7]
+tupla = 1 ,2 ,3 ,4 ,5 ,6 ,7
 
 def soma(*args):
     print(args)
@@ -11,4 +11,7 @@ def soma(*args):
         print(total, numero)
 
 
-soma(*lista)
+soma(*tupla)
+
+## a funcao 'sum()' server para fazer essa soma acima
+print (sum(tupla))
