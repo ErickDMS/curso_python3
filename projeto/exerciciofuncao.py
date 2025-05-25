@@ -12,3 +12,20 @@ def mult(*args):
 resultado = mult(*num)
 
 print(resultado)
+
+
+num2 = input('Digite um numero: ')
+
+def par_impar(x):
+    y = int(x)
+    result = 0
+    conta = y % 2
+    if conta == 0:
+        result = 'Numero par'
+    else:
+        result = 'Numero impar'
+    return result
+    
+
+result = par_impar(num2)
+print(result)
