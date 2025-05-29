@@ -1,12 +1,9 @@
 pessoa = {}
 
-##
-##
-
 chave = 'nome'
 
-pessoa[chave] = 'Luiz Otávio'
-pessoa['sobrenome'] = 'Miranda'
+pessoa[chave] = 'Erick'
+pessoa['sobrenome'] = 'Santos'
 
 
 print(pessoa[chave])
@@ -17,11 +14,11 @@ del pessoa['sobrenome']
 print(pessoa)
 print(pessoa['nome'])
 
-# print(pessoa.get('sobrenome'))
+
 if pessoa.get('sobrenome') is None:
     print('NÃO EXISTE')
 else:
     print(pessoa['sobrenome'])
 
-# print('ISSO Não vai')
+
 
