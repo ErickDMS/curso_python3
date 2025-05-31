@@ -13,6 +13,7 @@ pessoa = {
     'nome': 'Erick',
     'sobrenome': 'Santos',
     'idade': 30,
+    'up': 'teste'
 }
 
 pessoa.setdefault('idade', 0)#adiciona valor se a chave não existe, caso exista faz nada
@@ -27,3 +28,11 @@ for valor in pessoa.values():
 
 for chave, valor in pessoa.items():
     print(chave, valor)
+
+pessoa.update({
+    'up': 'valor atualizado',
+})
+print(pessoa)
+lista = ['nome2', 'David'], ['altura', 1.75]
+pessoa.update(lista)
+print(pessoa)
